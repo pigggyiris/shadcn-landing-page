@@ -18,6 +18,7 @@ import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./Icons";
 
+
 interface RouteProps {
   href: string;
   label: string;
@@ -54,7 +55,7 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
+              Coexplain
             </a>
           </NavigationMenuItem>
 
